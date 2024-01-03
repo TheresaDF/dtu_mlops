@@ -6,9 +6,6 @@ from torch import optim
 import numpy as np 
 from matplotlib import pyplot as plt 
 
-import pickle
-from skimage.io import imread, imsave
-
 
 from data import mnist
 
@@ -94,7 +91,11 @@ def evaluate(model_checkpoint):
 
 
 def silly_function():
+<<<<<<< HEAD
     print("Hello, this function needs to be deleted")
+=======
+    print("no")
+>>>>>>> 88bc5e5d80abd875acbc147cc96187c46792bf9f
 
 cli.add_command(train)
 cli.add_command(evaluate)
