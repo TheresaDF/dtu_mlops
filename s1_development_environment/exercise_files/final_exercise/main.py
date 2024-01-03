@@ -6,6 +6,9 @@ from torch import optim
 import numpy as np 
 from matplotlib import pyplot as plt 
 
+import pickle
+from skimage.io import imread, imsave
+
 
 from data import mnist
 
