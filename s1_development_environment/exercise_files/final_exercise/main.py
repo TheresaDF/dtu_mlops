@@ -90,13 +90,6 @@ def evaluate(model_checkpoint):
     print(f"accuracy = {np.mean(predictions)}")
 
 
-def silly_function():
-<<<<<<< HEAD
-    print("Hello, this function needs to be deleted")
-=======
-    print("no")
->>>>>>> 88bc5e5d80abd875acbc147cc96187c46792bf9f
-
 cli.add_command(train)
 cli.add_command(evaluate)
 
